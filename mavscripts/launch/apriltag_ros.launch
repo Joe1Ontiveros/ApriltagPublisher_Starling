@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+  <group ns="apriltag_config">  
+    <!-- Source the ros env here as needed -->
+    <node name="mavros_apriltag_node" pkg="mavscripts" type="mavros_apriltag_node" output="screen"/>
+  </group>
+
+</launch>
